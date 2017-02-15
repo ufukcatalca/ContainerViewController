@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E621B9A1E543B8F0030C740 /* ContViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E621B991E543B8F0030C740 /* ContViewController.m */; };
 		4E9E0BF61E53324F006E9153 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9E0BF51E53324F006E9153 /* main.m */; };
 		4E9E0BF91E53324F006E9153 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9E0BF81E53324F006E9153 /* AppDelegate.m */; };
 		4E9E0BFC1E53324F006E9153 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9E0BFB1E53324F006E9153 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E621B981E543B8F0030C740 /* ContViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContViewController.h; sourceTree = "<group>"; };
+		4E621B991E543B8F0030C740 /* ContViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContViewController.m; sourceTree = "<group>"; };
 		4E9E0BF11E53324F006E9153 /* ContainerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContainerViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E9E0BF51E53324F006E9153 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E9E0BF71E53324F006E9153 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				4E9E0BF81E53324F006E9153 /* AppDelegate.m */,
 				4E9E0BFA1E53324F006E9153 /* ViewController.h */,
 				4E9E0BFB1E53324F006E9153 /* ViewController.m */,
+				4E621B981E543B8F0030C740 /* ContViewController.h */,
+				4E621B991E543B8F0030C740 /* ContViewController.m */,
 				4E9E0BFD1E53324F006E9153 /* Main.storyboard */,
 				4E9E0C001E53324F006E9153 /* Assets.xcassets */,
 				4E9E0C021E53324F006E9153 /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 			files = (
 				4E9E0BFC1E53324F006E9153 /* ViewController.m in Sources */,
 				4E9E0BF91E53324F006E9153 /* AppDelegate.m in Sources */,
+				4E621B9A1E543B8F0030C740 /* ContViewController.m in Sources */,
 				4E9E0BF61E53324F006E9153 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +318,7 @@
 				4E9E0C0A1E53324F006E9153 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
